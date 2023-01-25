@@ -87,9 +87,10 @@ header {
   margin-top: 40px;
 }
 
-.flexRow .fakeImg {
+.fakeImg {
   display: inline-block;
-  padding: 90px 50px;
+  width: 150px;
+  height: 150px;
   border: 4px solid #3882f6;
   border-radius: 15px;
 }
@@ -98,10 +99,35 @@ header {
   display: block;
   color: #1f2937;
   font-size: 12px;
-  width: 100px;
+  width: 150px;
   overflow-wrap: break-word;
   word-wrap: break-word;
   hyphens: auto;
-  margin: 0;
-  padding: 0;
+  text-align: center;
+}
+
+.quote {
+  margin-top: 150px;
+  background-color: #e5e7eb;
+  padding: 8%;
+}
+
+.quoteText{
+  display: block;
+  color: #1f2937;
+  font-size: 36px;
+  font-weight: lighter;
+  font-style: italic;
+  width: 800px;
+  margin: auto;
+}
+
+.quoteAuthor {
+  display: block;
+  color: #1f2937;
+  font-size: 24px;
+  font-weight: bold;
+  margin: auto;
+  width: 800px;
+  text-align: end;
 }
