@@ -55,11 +55,15 @@ header {
 
 .hero button {
   color: #f9faf8;
+  font-weight: bold;
   background-color: #3882f6;
-  border: none;
-  padding: 7.5px 20px;
-  border-radius: 5px;
+  border: 2px solid #3882f6;
+  width: 100px;
+  height: 35px;
+  border-radius: 8px;
+  margin-top: auto;
 }
+
 
 .hero .heroImg {
   color: #f9faf8;
@@ -109,7 +113,7 @@ header {
 .quote {
   margin-top: 150px;
   background-color: #e5e7eb;
-  padding: 8%;
+  padding: 6%;
 }
 
 .quoteText{
@@ -130,4 +134,48 @@ header {
   margin: auto;
   width: 800px;
   text-align: end;
+}
+
+.banner {
+  margin: 110px auto;
+  padding: 50px;
+  width: 1100px;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  background-color: #3882f6;
+  justify-content: space-evenly;
+}
+
+.banner .bannerHeader {
+  color: #f9faf8;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.banner .bannerText {
+  color: #f9faf8;
+  font-size: 16px;
+}
+
+.banner .bannerButton {
+  color: #f9faf8;
+  font-weight: bold;
+  background-color: #3882f6;
+  border: 2px solid #f9faf8;
+  width: 100px;
+  height: 35px;
+  border-radius: 8px;
+  margin-top: auto;
+}
+
+footer {
+  background-color: #1f2937;
+  padding: 2%;
+}
+
+footer p {
+  color: #e5e7eb;
+  font-size: 18px;
+  text-align: center;
 }
